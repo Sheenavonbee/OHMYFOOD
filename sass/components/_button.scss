@@ -1,0 +1,40 @@
+@import "../utils/variables";
+@import "../utils/mixins";
+
+.top-section_button_pink {
+    background-color: $menu1_color;
+    margin-right: 20px;
+    @include  home_menu;
+    color: black;
+
+
+}
+.top-section_button_lilac {
+    background-color: $menu2_color;
+    @include home_menu;
+
+}
+.mid-section_button_grey {
+    background-color: $menu3_color;
+    margin-right: 20px;
+    @include home_menu;
+
+}
+.mid-section_button_offwhite {
+    background-color: $menu4_color;
+    @include home_menu;
+}
+
+
+
+.mentions, .contact {
+    color: $font-color;
+    margin-top: 0px;
+}
+
+.top-section_button_pink_h2,
+.top-section_button_lilac_h2,
+.mid-section_button_grey_h2,
+.mid-section_button_offwhite_h2 {
+    margin: auto;
+}

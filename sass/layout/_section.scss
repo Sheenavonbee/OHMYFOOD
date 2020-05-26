@@ -1,0 +1,25 @@
+ 
+@import "../utils/mixins";
+
+
+.main_container_top-section,
+.main_container_mid-section {
+    @include top_mid_section;
+
+}
+
+
+.bottom-section_soon_h3 {
+    border: 1px solid $bc_color;
+    border-radius: 15%;
+    width: 180px;
+    height: 20px;
+    padding: 5px;
+    background-color: $bc_color;
+    color: $font_color;
+    margin: 20px auto;
+    text-align: center;
+}  
+      
+    
+
