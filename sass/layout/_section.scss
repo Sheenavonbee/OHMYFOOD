@@ -10,13 +10,15 @@
 
 
 .bottom-section_soon_h3 {
-    border: 1px solid $bc_color;
-    border-radius: 15%;
+    border-radius: 10px;
     width: 180px;
-    height: 20px;
+    height: 30px;
     padding: 5px;
     background-color: $bc_color;
     color: $font_color;
+    font-family: 'Prompt', sans-serif;
+    font-size: 1.3em;
+    font-weight:lighter;
     margin: 20px auto;
     text-align: center;
 }  

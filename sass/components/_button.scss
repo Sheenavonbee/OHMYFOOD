@@ -6,30 +6,50 @@
     margin-right: 20px;
     @include  home_menu;
     color: black;
-
-
+       .fa-music{
+        background: -webkit-linear-gradient(90deg, #DB2A03, #F98607);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+       }
+    
 }
 .top-section_button_lilac {
     background-color: $menu2_color;
     @include home_menu;
-
+        .top-section_button_lilac_h2{
+            background: -webkit-linear-gradient(65deg, #F7AE0F, #984FF0);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+           }
 }
 .mid-section_button_grey {
     background-color: $menu3_color;
     margin-right: 20px;
     @include home_menu;
-
+        .mid-section_button_grey_h2 {
+            background: -webkit-linear-gradient(65deg, #0009B6,#9DBBFF); 
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            
+        }
+     
 }
 .mid-section_button_offwhite {
     background-color: $menu4_color;
     @include home_menu;
+}        .mid-section_button_offwhite_h2 {
+              background: -webkit-linear-gradient(65deg, #1C9F05,#C8FABE); 
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
 }
 
 
 
 .mentions, .contact {
     color: $font-color;
-    font-family: 'Fredoka One', cursive;;
+    font-family:'Prompt', sans-serif;
+    font-size: 1em;
+    font-weight: lighter;
     margin-top: 0px;
 }
 
