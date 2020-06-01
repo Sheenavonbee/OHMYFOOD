@@ -7,7 +7,12 @@ a {
 
 .menu1_body {
     background-color: $menu1_color;
-    margin: auto;
+    display: flex;
+    flex-direction: column;
+         .fa-music {
+             @include fa_note_color;
+         }
+
     
     
 }

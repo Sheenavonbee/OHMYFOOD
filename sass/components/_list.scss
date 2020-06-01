@@ -1,18 +1,36 @@
+@import "../utils/mixins";
+
+
 ul {
     list-style: none;
-        .menu1_main_starters_list  {
-            display: flex;
-            flex-direction: row;
-          
-        
-       .list_dish_title {
-             width: 80%;
-        
-        .list_dish_price {
-            width: 20%;
+}
+
+.starters_list_dish1,
+.starters_list_dish2,
+.starters_list_dish3,
+.starters_list_dish4,
+.courses_list_dish1,
+.courses_list_dish2,
+.courses_list_dish3,
+.desserts_list_dish1,
+.desserts_list_dish2,
+.desserts_list_dish3 {
+    @include list
+
+}
+         .list_dish_title {
+             
+              @include dish_title
+         }
+         .list_dish_price {
+           
+              @include dish_price
+    
         }
     
-       }
-     }
     
-    }
+    
+       
+     
+
+    

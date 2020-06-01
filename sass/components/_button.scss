@@ -1,17 +1,16 @@
 @import "../utils/variables";
 @import "../utils/mixins";
 
+
 .top-section_button_pink {
     background-color: $menu1_color;
     margin-right: 20px;
     @include  home_menu;
     color: black;
        .fa-music{
-        background: -webkit-linear-gradient(90deg, #DB2A03, #F98607);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-       }
-    
+           @include fa_note_color;
+       }      
+       
 }
 .top-section_button_lilac {
     background-color: $menu2_color;
@@ -51,7 +50,27 @@
     font-size: 1em;
     font-weight: lighter;
     margin-top: 0px;
-}
+        &:hover {
+            animation: shake 0.5s;
+            animation-iteration-count: infinite;
+        }
+            @keyframes shake{    
+            0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+          
+             }           
+    } 
+        
+
 
 .top-section_button_pink_h2,
 .top-section_button_lilac_h2,

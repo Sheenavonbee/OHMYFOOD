@@ -9,6 +9,13 @@
     
 }
 
+.menu1_main_container,
+.menu2_main_container,
+.menu3_main_container,
+.menu4_main_container {
+    @include menu_main_container;
+}
+
 
  
 
