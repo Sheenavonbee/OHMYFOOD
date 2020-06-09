@@ -1,0 +1,19 @@
+{
+  "name": "ohmyfood",
+  "version": "1.0.0",
+  "description": "Open classrooms project #3",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sheenavonbee/OHMYFOOD.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sheenavonbee/OHMYFOOD/issues"
+  },
+  "homepage": "https://github.com/Sheenavonbee/OHMYFOOD#readme"
+}
