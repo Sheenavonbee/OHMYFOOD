@@ -1,5 +1,6 @@
 @import "../utils/variables";
 @import "../utils/mixins";
+@import "../base/typography";
 
 
 .top-section_button_pink {
@@ -9,9 +10,18 @@
     color: black;
        .fa-music{
            @include fa_note_color;
-       }      
+               .top-section_button_pink_h2 {
+                   font-family: 'devonshireregular';
+                
+                
+                }
+               }
+          
+               }
+            
+            
        
-}
+
 .top-section_button_lilac {
     background-color: $menu2_color;
     @include home_menu;

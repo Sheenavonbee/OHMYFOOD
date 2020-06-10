@@ -108,6 +108,12 @@ a {
   text-align: center;
 }
 
+@font-face {
+  font-family: "devonshireregular";
+  src: url("fonts/devonshire-regular-webfont.woff2") format("woff2"), url("fonts/devonshire-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 .top-section_button_pink {
   background-color: #FCDFDB;
   margin-right: 20px;
@@ -121,6 +127,9 @@ a {
   background: -webkit-linear-gradient(65deg, #DB2A03, #F98607);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.top-section_button_pink .fa-music .top-section_button_pink_h2 {
+  font-family: "devonshireregular";
 }
 
 .top-section_button_lilac {
@@ -245,6 +254,13 @@ ul {
 .list_dish_price {
   width: 50%;
   display: inline-block;
+}
+
+@font-face {
+  font-family: "devonshireregular";
+  src: url("fonts/devonshire-regular-webfont.woff2") format("woff2"), url("fonts/devonshire-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 /*# sourceMappingURL=style.css.map */
