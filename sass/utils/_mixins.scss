@@ -36,16 +36,22 @@
 @mixin list {
     display: flex;
     flex-direction: row;
-    margin: auto;
+     margin:  auto;
+
 }
 
 @mixin dish_title {
     width: 50%;
     display: inline-block;
+    flex-wrap: wrap;
+    text-align: left;
+    
+    
 }
 
 @mixin dish_price {
     width: 50%;
     display: inline-block;
+    
     
 }

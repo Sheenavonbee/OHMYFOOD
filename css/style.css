@@ -71,6 +71,16 @@ a {
   background-color: #FDFFFD;
 }
 
+.home_body,
+.menu1_body,
+.menu2_body,
+.menu3_body,
+.menu4_body,
+.mentions_body {
+  width: 900px;
+  text-align: center;
+}
+
 .home_main_container {
   display: flex;
   flex-direction: column;
@@ -110,7 +120,8 @@ a {
 
 @font-face {
   font-family: "devonshireregular";
-  src: url("fonts/devonshire-regular-webfont.woff2") format("woff2"), url("fonts/devonshire-regular-webfont.woff") format("woff");
+  src: url("../font/webfontkit-20200611-071647/devonshire-regular-webfont.eot");
+  src: url("../font/webfontkit-20200611-071647/devonshire-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../font/webfontkit-20200611-071647/devonshire-regular-webfont.woff2") format("woff2"), url("../font/webfontkit-20200611-071647/devonshire-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -249,6 +260,8 @@ ul {
 .list_dish_title {
   width: 50%;
   display: inline-block;
+  flex-wrap: wrap;
+  text-align: left;
 }
 
 .list_dish_price {
@@ -258,7 +271,8 @@ ul {
 
 @font-face {
   font-family: "devonshireregular";
-  src: url("fonts/devonshire-regular-webfont.woff2") format("woff2"), url("fonts/devonshire-regular-webfont.woff") format("woff");
+  src: url("../font/webfontkit-20200611-071647/devonshire-regular-webfont.eot");
+  src: url("../font/webfontkit-20200611-071647/devonshire-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../font/webfontkit-20200611-071647/devonshire-regular-webfont.woff2") format("woff2"), url("../font/webfontkit-20200611-071647/devonshire-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }

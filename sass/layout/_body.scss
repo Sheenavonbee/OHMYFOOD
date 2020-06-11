@@ -1,12 +1,15 @@
 
 @import "../utils/variables";
 
+
+
 a {
     text-decoration: none;
 }
 
 .menu1_body {
     background-color: $menu1_color;
+    
     display: flex;
     flex-direction: column;
          .fa-music {
@@ -18,6 +21,7 @@ a {
 }
 .menu2_body {
     background-color: $menu2_color;
+    
 }
 
 .menu3_body {
@@ -30,6 +34,15 @@ a {
 }
     
   
+.home_body,
+.menu1_body,
+.menu2_body,
+.menu3_body,
+.menu4_body,
+.mentions_body {
+    width: 900px;
+    text-align: center;
+}
 
 
 
