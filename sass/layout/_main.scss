@@ -1,12 +1,17 @@
 @import "../utils/variables";
+@import "../utils/mixins";
 
 
 
 
 .home_main_container {
+    max-width: 550px;
+    height: 850px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: auto;
+
     
 }
 
@@ -19,5 +24,55 @@
 
 
  
+.menu1_main_container {
+    font-family: "Comic Sans MS";
+        .box_menu1 {
+            background-color: $menu1_color;
+            @include box;
 
+        }
+}
+.fa-music {
+    @include fa_note_color;
+}
+
+
+.box_menu2 {
+     @include box;
+     background-color: $menu2_color;
+}
+
+.menu2_section_starters {
+    color:#C98F01 ;
+}
+
+.menu2_section_courses {
+    color:#9B64B8;
+}
+     
+.menu2_section_desserts {
+    color: #623BFA;
+
+}
+
+
+.box_menu3 {
+    @include box;
+    background-color: $menu3_color;
+}
+    
+
+.box_menu4 {
+    @include box;
+    background-color: $menu4_color;
+}
+
+
+.menu3_main_container {
+    font-family: "Comic Sans MS";
+}
+
+.menu4_main_container {
+    font-family:"Comic Sans MS" ;
+}
 

@@ -1,26 +1,35 @@
  
 @import "../utils/mixins";
 
+.section_menus {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    
 
-.main_container_top-section,
-.main_container_mid-section {
-    @include top_mid_section;
-
+    
 }
-
-
-.bottom-section_soon_h3 {
-    border-radius: 10px;
-    width: 180px;
-    height: 30px;
-    padding: 5px;
-    background-color: $bc_color;
-    color: $font_color;
-    font-family: 'Prompt', sans-serif;
-    font-size: 1.3em;
-    font-weight:lighter;
-    margin: 20px auto;
-    text-align: center;
-}
+.soon {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    margin-bottom: 70px ;
+   .soon_green {
+           display: flex;
+           border-radius: 10px;
+           width: 230px;
+           height: 40px;
+           margin: auto;
+           background-color: $bc_color;
+           .soon_green_h3 {
+                margin: auto;
+                color: $font_color;
+                font-family: 'Prompt', sans-serif;
+                font-size: 1.3em;
+                font-weight: 300;
+            }
+        }
+    }
 
 

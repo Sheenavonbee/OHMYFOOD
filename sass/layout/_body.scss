@@ -7,41 +7,15 @@ a {
     text-decoration: none;
 }
 
-.menu1_body {
-    background-color: $menu1_color;
-    
-    display: flex;
-    flex-direction: column;
-         .fa-music {
-             @include fa_note_color;
-         }
-
-    
-    
-}
-.menu2_body {
-    background-color: $menu2_color;
-    
-}
-
-.menu3_body {
-    background-color: $menu3_color;
-}
-
-.menu4_body {
-    background-color: $menu4_color;
-    
-}
-    
-  
 .home_body,
 .menu1_body,
 .menu2_body,
 .menu3_body,
-.menu4_body,
-.mentions_body {
-    width: 900px;
+.menu4_body {
     text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 

@@ -1,0 +1,26 @@
+@import "../utils/mixins";
+
+
+.menu1_titles,
+.menu2_titles,
+.menu3_titles,
+.menu4_titles {
+   
+    @include menu_titles;
+    display: flex;
+       
+}
+
+.h2 {
+    margin: 0;
+}
+
+.right_img,    
+.left_img {
+    @include images;
+}
+
+
+
+
+

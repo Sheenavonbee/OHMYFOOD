@@ -3,18 +3,21 @@
 @import "../utils/mixins";
 
 
-.home_header_h1{
+.home_header {
 	width: 100%;
-	height: 100px;
-	padding-top: 20px;
-	background-color: $bc_color;
-	color: $font_color;
-	font-family: 'Prompt', sans-serif;
-	font-size: 3em;
-	font-weight: 500;
-	text-align: center;
-	
+	height: 110px;
+	background-color: $bc_color;	  
+	      .home_header_h1 {
+		   font-family: 'Prompt', sans-serif;
+		   font-size: 3em ;
+		   letter-spacing: -1;
+		   margin:auto;
+		   color: $font_color;
+		   padding-top: 10px;
+		  
+    }	  
 }
+
 .menu1_header,
 .menu2_header,
 .menu3_header,
@@ -23,10 +26,50 @@
 	   
 }
 
-.menu1_header{
-	.fa-music{
-		padding: 7px;
-	}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+	font-size: 1.8em;
+	padding: 0;
+	margin: 5px;
 }
 
 
+
+.menu1_header_h1 {
+	font-family: 'devonshireregular';
+	font-size: 3em;
+	margin: 0;
+	
+}
+
+	.fa-music{
+		padding: 8px;
+	}
+.menu2_header{
+	display: flex;
+	.menu2_header_h1{
+		margin: auto;
+        font-family: 'Croissant One', cursive;
+	    @include lechic_color
+    }
+}
+.menu3_header{
+	display: flex;
+    .menu3_header_h1 {
+	     margin: auto;	
+	     font-family: 'Parisienne', cursive;
+	     font-size: 3.3em;
+		 
+		 @include ledelice_color ;
+    }
+}
+.menu4_header{
+	display: flex;
+    .menu4_header_h1 {
+		 margin: auto;
+	     @include lapalette_color ;
+		 font-family:'runcrowregular';
+		 font-size: 3.3em;
+     }
+}

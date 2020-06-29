@@ -2,25 +2,37 @@
 
 
 .home_footer{
+    position: fixed;
+    bottom: 0;
+    right: 0; 
+    left: 0;
     width: 100%;
-    height: 40px;
     background-color: $bc_color;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-top: 10px;
-    
+    height:50px;
+        .home_footer_buttons {
+            display: flex;
+            max-width: 600px;
+            margin: auto;
+            height: 100%;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
 
 }
 
 .menu1_footer {
-    width: 100%;
-    height: 70px;
     text-align: center;
-    margin-top: 0;
-       .fa-music {
+    margin: 0;
+        .fa-music {
            padding: 4px;
        }
     
 }
 
+.menu1_footer_h3 {
+    font-family: 'devonshireregular';
+    padding: 0;
+
+    
+}
