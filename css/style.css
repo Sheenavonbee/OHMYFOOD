@@ -9,7 +9,7 @@
   letter-spacing: -1;
   margin: auto;
   color: #FDCB46;
-  padding-top: 10px;
+  padding-top: 15px;
 }
 
 .menu1_header,
@@ -32,10 +32,11 @@
   font-family: "devonshireregular";
   font-size: 3em;
   margin: 0;
+  padding: 15px;
 }
 
 .fa-music {
-  padding: 8px;
+  padding: 5px;
 }
 
 .menu2_header {
@@ -86,7 +87,6 @@
   }
   .home_header .home_header_h1 {
     font-size: 2.6em;
-    padding: 0;
   }
 }
 .home_footer {
@@ -118,8 +118,8 @@
 
 .menu1_footer_h3 {
   font-family: "devonshireregular";
-  font-size: 1.5em;
-  padding: 0;
+  font-size: 2em;
+  margin: 0;
 }
 
 @media screen and (max-width: 480px) {
@@ -240,7 +240,10 @@ a {
   max-width: 800px;
   text-align: left;
   margin: auto;
-  font-family: fantasy;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  font-size: 0.8em;
+  padding: 20px;
 }
 
 @media screen and (max-width: 480px) {
@@ -257,7 +260,6 @@ a {
 
   .legales_main_container {
     font-size: 0.5em;
-    padding: 3em;
   }
 }
 .section_menus {
@@ -606,7 +608,6 @@ ul {
   flex-direction: row;
   padding: 0;
   flex-wrap: nowrap;
-  display: flex;
 }
 
 .h2 {
@@ -619,6 +620,12 @@ ul {
   height: 4px;
   margin: auto;
   padding: 0;
+}
+
+.mentions_h1,
+.mentions_h2,
+.mentions_h3 {
+  font-family: "Comic Sans MS";
 }
 
 @media screen and (max-width: 480px) {

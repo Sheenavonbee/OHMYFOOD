@@ -7,8 +7,6 @@
 .menu4_titles {
    
     @include menu_titles;
-    display: flex;
-       
 }
 
 .h2 {
@@ -19,6 +17,14 @@
 .left_img {
     @include images;
 }
+
+.mentions_h1,
+.mentions_h2,
+.mentions_h3 {
+    font-family:"Comic Sans MS" ;
+}
+
+
 
 @media screen and (max-width: 480px) 
 {
