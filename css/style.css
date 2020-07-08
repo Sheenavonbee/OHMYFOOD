@@ -79,7 +79,7 @@
   height: 70px;
 }
 
-@media screen and (max-width: 641px) {
+@media screen and (max-width: 480px) {
   .home_header {
     height: 90px;
     width: 100%;
@@ -122,7 +122,7 @@
   padding: 0;
 }
 
-@media screen and (max-width: 641px) {
+@media screen and (max-width: 480px) {
   .home_footer {
     height: 30px;
   }
@@ -143,7 +143,7 @@ a {
   flex-direction: column;
 }
 
-@media screen and (max-width: 641px) {
+@media screen and (max-width: 480px) {
   .home_body,
 .legales_body {
     height: 500px;
@@ -243,7 +243,7 @@ a {
   font-family: fantasy;
 }
 
-@media screen and (max-width: 641px) {
+@media screen and (max-width: 480px) {
   .home_main_container {
     width: 100%;
   }
@@ -322,9 +322,10 @@ a {
   padding-bottom: 50px;
 }
 
-@media screen and (max-width: 641px) {
+@media screen and (max-width: 480px) {
   .soon {
-    height: 50px;
+    height: 30px;
+    margin-bottom: 50px;
   }
   .soon .soon_green {
     width: 150px;
@@ -335,7 +336,7 @@ a {
   }
 
   .section_menus {
-    padding-top: 0;
+    margin-top: 0;
   }
 }
 @font-face {
@@ -540,14 +541,14 @@ a {
   }
 }
 
-@media screen and (max-width: 641px) {
+@media screen and (max-width: 480px) {
   .menu_lanote,
 .menu_lechic,
 .menu_ledelice,
 .menu_lapalette {
     box-shadow: 0px 4px 16px -3px rgba(155, 153, 153, 0.75);
-    max-height: 150px;
-    max-width: 100px;
+    max-height: 180px;
+    max-width: 125px;
   }
 
   .menu_button_pink_h2,
@@ -620,7 +621,7 @@ ul {
   padding: 0;
 }
 
-@media screen and (max-width: 641px) {
+@media screen and (max-width: 480px) {
   .right_img,
 .left_img {
     max-width: 70px;
