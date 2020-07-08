@@ -32,7 +32,17 @@
 
 .menu1_footer_h3 {
     font-family: 'devonshireregular';
+    font-size: 1.5em;
     padding: 0;
 
-    
+
+}
+
+@media screen and (max-width: 641px)
+{
+
+.home_footer{
+    height: 30px ;
+}    
+
 }

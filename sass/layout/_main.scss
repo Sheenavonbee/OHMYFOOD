@@ -11,8 +11,6 @@
     flex-direction: column;
     justify-content: center;
     margin: auto;
-
-    
 }
 
 .menu1_main_container,
@@ -67,6 +65,13 @@
     background-color: $menu4_color;
 }
 
+.box_menu2,
+.box_menu3,
+.box_menu4 {
+    padding: 20px;
+    line-height: 2.5em;
+}
+
 
 .menu3_main_container {
     font-family: "Comic Sans MS";
@@ -76,3 +81,32 @@
     font-family:"Comic Sans MS" ;
 }
 
+.legales_main_container {
+    max-width: 800px;
+    text-align: left;
+    margin: auto;
+    font-family: fantasy;
+
+}
+
+@media screen and (max-width: 641px)
+{
+
+.home_main_container {
+    width: 100%;
+    
+
+} 
+.box_menu1,
+.box_menu2,
+.box_menu3,
+.box_menu4 {
+
+    max-width: 300px;
+}
+
+.legales_main_container{
+    font-size: 0.5em;
+    padding: 3em;
+}
+}

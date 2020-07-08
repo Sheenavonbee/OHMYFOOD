@@ -5,7 +5,7 @@
 
 .home_header {
 	width: 100%;
-	height: 110px;
+	height: 100px;
 	background-color: $bc_color;	  
 	      .home_header_h1 {
 		   font-family: 'Prompt', sans-serif;
@@ -26,12 +26,11 @@
 	   
 }
 
-p {
+.black_title {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
 	font-size: 1.8em;
-	padding: 0;
-	margin: 5px;
+	margin-top: 30px;
 }
 
 
@@ -59,7 +58,7 @@ p {
     .menu3_header_h1 {
 	     margin: auto;	
 	     font-family: 'Parisienne', cursive;
-	     font-size: 3.3em;
+	     font-size: 2.6em;
 		 
 		 @include ledelice_color ;
     }
@@ -72,4 +71,23 @@ p {
 		 font-family:'runcrowregular';
 		 font-size: 3.3em;
      }
+}
+
+.menu2_header,
+.menu3_header,
+.menu4_header {
+	height: 70px;
+}
+
+@media screen and (max-width: 641px)
+{
+
+.home_header{
+	height: 90px;
+	width: 100%;
+	.home_header_h1{
+		font-size: 2.6em;
+		padding: 0;
+	}
+}	
 }

@@ -28,8 +28,61 @@
                 font-family: 'Prompt', sans-serif;
                 font-size: 1.3em;
                 font-weight: 300;
-            }
+                
         }
     }
 
+}
+.loading1,
+.loading2,
+.loading3 {
+    width: 3px;
+    height: 3px;
+    margin:0 0.5px;
+    background-color: $font_color;
+    border-radius: 50%;
+    display: inline-block;
+    animation-name: dots;
+    animation-duration: 2s; 
+    animation-iteration-count: infinite ; 
+    animation-timing-function: ease-in-out;
+         @keyframes dots {
+             50% {
+             opacity: 0;
+             transform: scale(0.7) translateY(1.5px);
+             }
+    
+     }
+
+ }
+.loading2 {
+    animation-delay: 0.4s;
+}
+
+.loading3 {
+    animation-delay: 0.8s;
+}
+
+.legales_text {
+    padding-bottom: 50px;
+}
+
+ @media screen and (max-width: 641px) 
+ {
+.soon {
+    height: 50px;
+    .soon_green{
+        width: 150px;
+        height: 20px;
+        .soon_green_h3{
+            font-size: 0.9em;
+        }
+    }
+}
+ 
+.section_menus {
+    padding-top: 0;
+}
+
+}
 

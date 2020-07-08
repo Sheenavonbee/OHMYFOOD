@@ -20,6 +20,16 @@
     @include images;
 }
 
+@media screen and (max-width: 641px) 
+{
+
+.right_img,
+.left_img {
+    max-width: 70px;
+}    
+
+}
+
 
 
 

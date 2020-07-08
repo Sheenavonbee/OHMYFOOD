@@ -15,19 +15,17 @@
      @include fa_note_color;
 }
   
-       .menu_button_pink_h2 {
-        margin: auto;
-        font-family: 'devonshireregular';
-        font: weight lighter ;
-        font-size: 1.6em;
-        color: black;
-             .button_pink_span {
-                 font-family: 'Tillana', cursive;
+.menu_button_pink_h2 {
+     margin: auto;
+     font-family: 'devonshireregular';
+     font: weight lighter ;
+     font-size: 1.6em;
+     color: black;
+     .button_pink_span {
+         font-family: 'Tillana', cursive;
 
-                   
-                
-        }
     }
+}
  
 .menu_lechic {
      @include home_menu;
@@ -118,5 +116,27 @@
              }           
     } 
         
+@media screen and (max-width: 641px)
+{
 
+.menu_lanote,
+.menu_lechic,
+.menu_ledelice,
+.menu_lapalette {
+    @include resp_home;
+}
+
+.menu_button_pink_h2,
+.menu_button_lilac_h2,
+.menu_button_grey_h2,
+.menu_button_offwhite_h2 {
+    font-size: 1.1em;
+    line-height: 1.5em ;
+}
+
+.mentions, .contact {
+    font-size: 0.9em;
+}
+
+}
 
