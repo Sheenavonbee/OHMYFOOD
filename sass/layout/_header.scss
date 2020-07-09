@@ -67,10 +67,10 @@
 .menu4_header{
 	display: flex;
     .menu4_header_h1 {
-		 margin: auto;
+		 margin: 20px auto;
 	     @include lapalette_color ;
 		 font-family:'runcrowregular';
-		 font-size: 3.3em;
+		 font-size: 3em;
      }
 }
 

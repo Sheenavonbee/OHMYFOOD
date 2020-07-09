@@ -66,12 +66,12 @@
   display: flex;
 }
 .menu4_header .menu4_header_h1 {
-  margin: auto;
+  margin: 20px auto;
   background: -webkit-linear-gradient(35deg, #1C9F05, #C8FABE);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: "runcrowregular";
-  font-size: 3.3em;
+  font-size: 3em;
 }
 
 .menu2_header,
@@ -568,6 +568,7 @@ a {
 ul {
   list-style: none;
   padding-left: 15px;
+  font-size: 1.1em;
 }
 
 .starters_list_dish1,
@@ -610,10 +611,6 @@ ul {
   flex-wrap: nowrap;
 }
 
-.h2 {
-  margin: 0;
-}
-
 .right_img,
 .left_img {
   width: 140px;
@@ -626,6 +623,62 @@ ul {
 .mentions_h2,
 .mentions_h3 {
   font-family: "Comic Sans MS";
+}
+
+.menu1_starters_h2,
+.menu1_courses_h2,
+.menu1_desserts_h2,
+.menu3_starters_h2,
+.menu3_courses_h2,
+.menu3_desserts_h2,
+.menu4_starters_h2,
+.menu4_courses_h2,
+.menu4_desserts_h2 {
+  text-decoration: none;
+  background: linear-gradient(to top, #070000 0%, rgba(8, 0, 0, 0.5) 1px, transparent 2px) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.2s;
+}
+.menu1_starters_h2:hover,
+.menu1_courses_h2:hover,
+.menu1_desserts_h2:hover,
+.menu3_starters_h2:hover,
+.menu3_courses_h2:hover,
+.menu3_desserts_h2:hover,
+.menu4_starters_h2:hover,
+.menu4_courses_h2:hover,
+.menu4_desserts_h2:hover {
+  background-size: 100% 100%;
+}
+
+.menu2_starters_h2 {
+  text-decoration: none;
+  background: linear-gradient(to top, #c09d46 0%, rgba(250, 211, 83, 0.5) 1px, transparent 2px) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.2s;
+}
+.menu2_starters_h2:hover {
+  background-size: 100% 100%;
+}
+
+.menu2_courses_h2 {
+  text-decoration: none;
+  background: linear-gradient(to top, #9b67b8 0%, rgba(221, 170, 245, 0.5) 1px, transparent 2px) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.2s;
+}
+.menu2_courses_h2:hover {
+  background-size: 100% 100%;
+}
+
+.menu2_desserts_h2 {
+  text-decoration: none;
+  background: linear-gradient(to top, #4e11f7 0%, rgba(108, 79, 235, 0.5) 1px, transparent 2px) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.2s;
+}
+.menu2_desserts_h2:hover {
+  background-size: 100% 100%;
 }
 
 @media screen and (max-width: 480px) {
