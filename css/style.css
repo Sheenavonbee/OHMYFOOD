@@ -6,7 +6,7 @@
 .home_header .home_header_h1 {
   font-family: "Prompt", sans-serif;
   font-size: 3em;
-  letter-spacing: -1;
+  letter-spacing: -1em;
   margin: auto;
   color: #FDCB46;
   padding-top: 15px;
@@ -389,7 +389,7 @@ a {
 .menu_button_pink_h2 {
   margin: auto;
   font-family: "devonshireregular";
-  font: weight lighter;
+  font-weight: lighter;
   font-size: 1.6em;
   color: black;
 }
