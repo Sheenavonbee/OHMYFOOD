@@ -326,7 +326,7 @@ a {
 @media screen and (max-width: 480px) {
   .soon {
     height: 50px;
-    margin-bottom: 30px;
+    margin: 30px auto;
   }
   .soon .soon_green {
     width: 150px;
