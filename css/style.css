@@ -6,8 +6,8 @@
 .home_header .home_header_h1 {
   font-family: "Prompt", sans-serif;
   font-size: 3em;
-  letter-spacing: 0;
-  margin: auto;
+  letter-spacing: 0.3em;
+  margin: 0;
   color: #FDCB46;
   padding-top: 15px;
 }
