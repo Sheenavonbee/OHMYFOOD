@@ -367,16 +367,16 @@ a {
   font-size: 0.8em;
   line-height: 2.9em;
   box-shadow: 0px 4px 16px -3px rgba(155, 153, 153, 0.75);
-  transform: scale(1);
-  transition: transform 100ms ease-in-out;
   background-color: #FCDFDB;
-}
-.menu_lanote:hover {
-  transform: scale(1.2);
 }
 .menu_lanote .menu_button_pink {
   display: flex;
   margin: auto;
+  transform: scale(1);
+  transition: transform 100ms ease-in-out;
+}
+.menu_lanote .menu_button_pink:hover {
+  transform: scale(1.5);
 }
 
 .fa-music {
@@ -405,16 +405,16 @@ a {
   font-size: 0.8em;
   line-height: 2.9em;
   box-shadow: 0px 4px 16px -3px rgba(155, 153, 153, 0.75);
-  transform: scale(1);
-  transition: transform 100ms ease-in-out;
   background-color: #FFF5FE;
-}
-.menu_lechic:hover {
-  transform: scale(1.2);
 }
 .menu_lechic .menu_button_lilac {
   display: flex;
   margin: auto;
+  transform: scale(1);
+  transition: transform 100ms ease-in-out;
+}
+.menu_lechic .menu_button_lilac:hover {
+  transform: scale(1.5);
 }
 .menu_lechic .menu_button_lilac .menu_button_lilac_h2 {
   font-family: "Croissant One", cursive;
@@ -440,16 +440,16 @@ a {
   font-size: 0.8em;
   line-height: 2.9em;
   box-shadow: 0px 4px 16px -3px rgba(155, 153, 153, 0.75);
-  transform: scale(1);
-  transition: transform 100ms ease-in-out;
   background-color: #F9F9F9;
-}
-.menu_ledelice:hover {
-  transform: scale(1.2);
 }
 .menu_ledelice .menu_button_grey {
   display: flex;
   margin: auto;
+  transform: scale(1);
+  transition: transform 100ms ease-in-out;
+}
+.menu_ledelice .menu_button_grey:hover {
+  transform: scale(1.5);
 }
 .menu_ledelice .menu_button_grey .menu_button_grey_h2 {
   margin: auto;
@@ -471,16 +471,16 @@ a {
   font-size: 0.8em;
   line-height: 2.9em;
   box-shadow: 0px 4px 16px -3px rgba(155, 153, 153, 0.75);
-  transform: scale(1);
-  transition: transform 100ms ease-in-out;
   background-color: #FDFFFD;
-}
-.menu_lapalette:hover {
-  transform: scale(1.2);
 }
 .menu_lapalette .menu_button_offwhite {
   display: flex;
   margin: auto;
+  transform: scale(1);
+  transition: transform 100ms ease-in-out;
+}
+.menu_lapalette .menu_button_offwhite:hover {
+  transform: scale(1.5);
 }
 .menu_lapalette .menu_button_offwhite .menu_button_offwhite_h2 {
   font-family: "runcrowregular";
