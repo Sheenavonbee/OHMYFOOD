@@ -19,20 +19,28 @@ a {
     flex-direction: column;
     
 }
-
-@media screen and (max-width: 480px)
+@media all and(max-width: 480px)
 {
+.menu1_body
+.menu2_body,
+.menu3_body,
+.menu4_body{
+    height: 100%;
+}    
+}
 
+@media all and(max-width: 1024px)
+{
 .home_body,
-.legales_body{
-    height: 500px;
+.menu1_body,
+.menu2_body,
+.menu3_body,
+.menu4_body{
+    height: 100%;
 }
 
+
 }
-
-
-
-
 
 
 

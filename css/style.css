@@ -79,7 +79,7 @@
   height: 70px;
 }
 
-@media screen and (max-width: 480px) {
+@media all and (max-width: 480px) {
   .home_header {
     height: 90px;
     width: 100%;
@@ -121,9 +121,13 @@
   margin: 0;
 }
 
-@media screen and (max-width: 480px) {
+@media all and (max-width: 480px) {
   .home_footer {
     height: 30px;
+  }
+
+  .menu1_footer_h3 {
+    margin: 30px auto;
   }
 }
 a {
@@ -142,18 +146,25 @@ a {
   flex-direction: column;
 }
 
-@media screen and (max-width: 480px) {
+@media all and (max-width: 480px) {
+  .menu1_body .menu2_body,
+.menu3_body,
+.menu4_body {
+    height: 100%;
+  }
+}
+@media all and (max-width: 1024px) {
   .home_body,
-.legales_body {
-    height: 500px;
+.menu1_body,
+.menu2_body,
+.menu3_body,
+.menu4_body {
+    height: 100%;
   }
 }
 .home_main_container {
-  max-width: 550px;
-  height: 850px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   margin: auto;
 }
 
@@ -245,20 +256,35 @@ a {
   padding: 20px;
 }
 
-@media screen and (max-width: 480px) {
+@media all and (max-width: 480px) {
   .home_main_container {
     width: 100%;
+    height: 100%;
+  }
+
+  .box_menu1 {
+    font-size: 0.9em;
   }
 
   .box_menu1,
 .box_menu2,
 .box_menu3,
 .box_menu4 {
-    max-width: 300px;
+    max-height: 600px;
+    max-width: 360px;
+    margin-bottom: 40px;
   }
 
   .legales_main_container {
-    font-size: 0.5em;
+    font-size: 0.4em;
+  }
+}
+@media all and (max-width: 1024px) {
+  .home_main_container .menu1_main_container,
+.home_main_container .menu2_main_container,
+.home_main_container .menu3_main_container,
+.home_main_container .menu4_main_container {
+    height: 100%;
   }
 }
 .section_menus {
@@ -323,21 +349,24 @@ a {
   padding-bottom: 50px;
 }
 
-@media screen and (max-width: 480px) {
+@media all and (max-width: 480px) {
   .soon {
-    height: 50px;
-    margin: 30px auto;
+    max-height: 50px;
+    margin: 0 auto;
   }
   .soon .soon_green {
     width: 150px;
-    height: 20px;
+    max-height: 20px;
+    margin: 0 auto;
   }
   .soon .soon_green .soon_green_h3 {
     font-size: 0.9em;
   }
-
-  .section_menus {
-    margin-top: 0;
+}
+@media all and (max-width: 1024px) {
+  .soon {
+    width: 100%;
+    margin: 30px auto;
   }
 }
 @font-face {
@@ -542,26 +571,36 @@ a {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media all and (max-width: 480px) {
   .menu_lanote,
 .menu_lechic,
 .menu_ledelice,
 .menu_lapalette {
     box-shadow: 0px 4px 16px -3px rgba(155, 153, 153, 0.75);
-    max-height: 180px;
-    max-width: 125px;
+    max-height: 190px;
+    max-width: 170px;
   }
 
   .menu_button_pink_h2,
 .menu_button_lilac_h2,
 .menu_button_grey_h2,
 .menu_button_offwhite_h2 {
-    font-size: 1.1em;
+    font-size: 1.6em;
     line-height: 1.5em;
   }
 
   .mentions, .contact {
     font-size: 0.9em;
+  }
+}
+@media all and (max-width: 1024px) {
+  .menu_lanote,
+.menu_lechic,
+.menu_ledelice,
+.menu_lapalette {
+    box-shadow: 0px 4px 16px -3px rgba(155, 153, 153, 0.75);
+    max-height: 450px;
+    max-width: 600px;
   }
 }
 ul {
@@ -680,7 +719,7 @@ ul {
   background-size: 100% 100%;
 }
 
-@media screen and (max-width: 480px) {
+@media all and (max-width: 480px) {
   .right_img,
 .left_img {
     max-width: 70px;

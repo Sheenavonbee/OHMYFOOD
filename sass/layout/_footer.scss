@@ -38,11 +38,14 @@
 
 }
 
-@media screen and (max-width: 480px)
+@media all and (max-width: 480px)
 {
 
 .home_footer{
     height: 30px ;
-}    
+} 
+.menu1_footer_h3{
+    margin: 30px auto;
+}   
 
 }

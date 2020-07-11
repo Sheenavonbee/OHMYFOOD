@@ -5,11 +5,8 @@
 
 
 .home_main_container {
-    max-width: 550px;
-    height: 850px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     margin: auto;
 }
 
@@ -92,25 +89,44 @@
 
 }
 
-@media screen and (max-width: 480px)
+@media all and (max-width: 480px)
 {
 
 .home_main_container {
     width: 100%;
+    height: 100%;
     
-
 } 
+
+.box_menu1{
+    font-size: 0.9em;
+}
 .box_menu1,
 .box_menu2,
 .box_menu3,
 .box_menu4 {
-
-    max-width: 300px;
+    max-height: 600px;
+    max-width: 360px;
+    margin-bottom: 40px;
 }
 
 .legales_main_container{
-    font-size: 0.5em;
+    font-size: 0.4em;
     
 }
 }
 
+@media all and (max-width: 1024px)
+{
+.home_main_container {
+.menu1_main_container,
+.menu2_main_container,
+.menu3_main_container,
+.menu4_main_container{     
+    height: 100%;
+    
+    
+      }
+
+   }
+}

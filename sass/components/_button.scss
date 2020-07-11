@@ -119,27 +119,48 @@
              }           
     } 
         
-@media screen and (max-width: 480px)
+@media all and (max-width: 480px)
 {
 
 .menu_lanote,
 .menu_lechic,
 .menu_ledelice,
 .menu_lapalette {
-    @include resp_home;
+    box-shadow: 0px 4px 16px -3px  rgba(155, 153, 153, 0.75);
+    max-height: 190px;
+    max-width: 170px;
+
+    
 }
 
 .menu_button_pink_h2,
 .menu_button_lilac_h2,
 .menu_button_grey_h2,
 .menu_button_offwhite_h2 {
-    font-size: 1.1em;
+    font-size: 1.6em;
     line-height: 1.5em ;
+    
 }
 
 .mentions, .contact {
     font-size: 0.9em;
 }
 
+}
+
+@media all and (max-width: 1024px)
+{
+.menu_lanote,
+.menu_lechic,
+.menu_ledelice,
+.menu_lapalette {
+    box-shadow: 0px 4px 16px -3px  rgba(155, 153, 153, 0.75);
+     max-height: 450px;
+     max-width: 600px;
+     
+     
+    
+     
+  }
 }
 

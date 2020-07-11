@@ -67,23 +67,28 @@
     padding-bottom: 50px;
 }
 
- @media screen and (max-width: 480px) 
+ @media all and ( max-width: 480px) 
  {
 .soon {
-    height: 50px;
-    margin: 30px auto;
+    max-height: 50px;
+    margin: 0 auto;
+    
     .soon_green{
         width: 150px;
-        height: 20px;
+        max-height: 20px;
+        margin: 0 auto;
         .soon_green_h3{
             font-size: 0.9em;
         }
     }
 }
- 
-.section_menus {
-    margin-top: 0;
 }
 
-}
+@media all and ( max-width: 1024px)
+{
+.soon{
+    width: 100%;
+    margin:30px auto;
 
+}
+}
