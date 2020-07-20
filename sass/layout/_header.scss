@@ -28,23 +28,36 @@
 .black_title {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
-	font-size: 1.8em;
+	font-size: 2em;
 	margin-top: 30px;
+}
+@media screen and (max-width: 480px) 
+{
+.black_title{	
+	font-size: 1.3em;
+	font-weight: 600;
+	margin-top: 10px;
+}
 }
 
 
 
 .menu1_header_h1 {
 	font-family: 'devonshireregular';
-	font-size: 3em;
-	margin: 0;
-	padding: 15px;
+	font-size: 2.4em;
+	margin-bottom: 30px;
 	
 }
 
 	.fa-music{
-		padding: 5px;
+		padding: 10px;
 	}
+@media screen and (max-width: 480px) 
+{
+.menu1_header_h1{
+	font-size: 1.8em;
+}
+}
 .menu2_header{
 	display: flex;
 	.menu2_header_h1{
@@ -52,6 +65,12 @@
         font-family: 'Croissant One', cursive;
 	    @include lechic_color
     }
+}
+@media screen and (max-width: 480px) 
+{
+.menu2_header_h1{
+	font-size: 1.5em;
+}	
 }
 .menu3_header{
 	display: flex;
@@ -63,31 +82,26 @@
 		 @include ledelice_color ;
     }
 }
+@media screen and (max-width: 480px) 
+{
+.menu3_header_h1{
+	font-size: 1em;
+}	
+}
 .menu4_header{
 	display: flex;
     .menu4_header_h1 {
-		 margin: 20px auto;
+		 margin: auto;
 	     @include lapalette_color ;
 		 font-family:'runcrowregular';
-		 font-size: 3em;
+		 font-size: 2.1em;
      }
 }
 
-.menu2_header,
-.menu3_header,
-.menu4_header {
-	height: 70px;
-}
 
-@media all and (max-width: 480px)
+@media screen and (max-width: 1084px) and (orientation: portrait)
 {
-
 .home_header{
-	height: 90px;
-	width: 100%;
-	.home_header_h1{
-		font-size: 2.6em;
-		
-	}
-}	
+	max-height: 300px;
+}
 }

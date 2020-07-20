@@ -2,9 +2,28 @@
 @import "../utils/mixins";
 @import "../base/typography";
 
-.menu_lanote {
+.menu {
     @include home_menu;
-    background-color: $menu1_color;
+
+}
+@media screen and (max-width: 480px)
+{
+.menu{
+    max-width: 300px;
+       
+}
+}
+
+@media screen and (min-width: 1024px) and (orientation: portrait)
+{
+.menu {
+    max-width: 40%;
+    margin: 5%;
+    
+}
+}
+.menu_lanote {
+      background-color: $menu1_color;
       .menu_button_pink {
           display: flex;
           margin: auto;
@@ -20,7 +39,9 @@
      margin: auto;
      font-family: 'devonshireregular';
      font-weight: lighter ;
-     font-size: 1.6em;
+     font-size: 1.8em;
+     line-height: 1.8em;
+     padding:  70px 48px;
      color: black;
      .button_pink_span {
          font-family: 'Tillana', cursive;
@@ -28,9 +49,8 @@
 
     }
 }
- 
+
 .menu_lechic {
-     @include home_menu;
      background-color: $menu2_color;
      .menu_button_lilac { 
          display: flex;
@@ -38,7 +58,9 @@
          @include hightlight;
         .menu_button_lilac_h2 {
             font-family: 'Croissant One', cursive;
-            font-size: 1em;
+            font-size: 1.2em;
+            line-height: 2.3em;
+            padding:  120px 16px;
             margin: auto;
             @include lechic_color;
             .button_lilac_span {
@@ -51,7 +73,6 @@
     }
 }    
 .menu_ledelice {
-    @include home_menu;
     background-color: $menu3_color;
     .menu_button_grey {
         display: flex;
@@ -60,6 +81,9 @@
         .menu_button_grey_h2 {
             margin: auto;
             font-family: 'Parisienne', cursive;
+            font-size: 1.7em;
+            line-height: 1.8em;
+            padding: 100px 18px;
             @include ledelice_color ;
             .button_grey_span {
                 font-family: "Comic Sans MS";
@@ -70,7 +94,6 @@
     }
 }
 .menu_lapalette {
-    @include home_menu;
     background-color: $menu4_color;
     .menu_button_offwhite {
         display: flex;
@@ -78,9 +101,10 @@
         @include hightlight;
         .menu_button_offwhite_h2 {
               font-family: 'runcrowregular';
-              font-size: 1.2em;
+              font-size: 1.4em;
+              line-height: 1.8em;
+              padding: 123px 44px;
               margin: auto;
-              padding: 5px;
               @include lapalette_color ;
               .button_offwhite_span {
                   font-family: "Comic Sans MS";
@@ -97,12 +121,13 @@
 .mentions, .contact {
     color: $font-color;
     font-family:'Prompt', sans-serif;
-    font-size: 1em;
+    font-size: 1.1em;
     font-weight: 300;
         &:hover {
             animation: shake 0.5s;
             animation-iteration-count: infinite;
         }
+    }
             @keyframes shake{    
             0% { transform: translate(1px, 1px) rotate(0deg); }
   10% { transform: translate(-1px, -2px) rotate(-1deg); }
@@ -115,52 +140,12 @@
   80% { transform: translate(-1px, -1px) rotate(1deg); }
   90% { transform: translate(1px, 2px) rotate(0deg); }
   100% { transform: translate(1px, -2px) rotate(-1deg); }
-          
-             }           
-    } 
-        
-@media all and (max-width: 480px)
+}         
+@media screen and (min-width: 768px) and (orientation: portrait)
 {
-
-.menu_lanote,
-.menu_lechic,
-.menu_ledelice,
-.menu_lapalette {
-    box-shadow: 0px 4px 16px -3px  rgba(155, 153, 153, 0.75);
-    max-height: 190px;
-    max-width: 170px;
-
-    
-}
-
-.menu_button_pink_h2,
-.menu_button_lilac_h2,
-.menu_button_grey_h2,
-.menu_button_offwhite_h2 {
-    font-size: 1.6em;
-    line-height: 1.5em ;
-    
-}
-
-.mentions, .contact {
-    font-size: 0.9em;
-}
-
-}
-
-@media all and (max-width: 1024px)
-{
-.menu_lanote,
-.menu_lechic,
-.menu_ledelice,
-.menu_lapalette {
-    box-shadow: 0px 4px 16px -3px  rgba(155, 153, 153, 0.75);
-     max-height: 450px;
-     max-width: 600px;
-     
-     
-    
-     
-  }
+.mentions, .contact{
+    font-size: 2em;
+              
+}    
 }
 

@@ -23,21 +23,32 @@
 .black_title {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
-  font-size: 1.8em;
+  font-size: 2em;
   margin-top: 30px;
 }
 
+@media screen and (max-width: 480px) {
+  .black_title {
+    font-size: 1.3em;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+}
 .menu1_header_h1 {
   font-family: "devonshireregular";
-  font-size: 3em;
-  margin: 0;
-  padding: 15px;
+  font-size: 2.4em;
+  margin-bottom: 30px;
 }
 
 .fa-music {
-  padding: 5px;
+  padding: 10px;
 }
 
+@media screen and (max-width: 480px) {
+  .menu1_header_h1 {
+    font-size: 1.8em;
+  }
+}
 .menu2_header {
   display: flex;
 }
@@ -49,6 +60,11 @@
   -webkit-text-fill-color: transparent;
 }
 
+@media screen and (max-width: 480px) {
+  .menu2_header_h1 {
+    font-size: 1.5em;
+  }
+}
 .menu3_header {
   display: flex;
 }
@@ -61,31 +77,26 @@
   -webkit-text-fill-color: transparent;
 }
 
+@media screen and (max-width: 480px) {
+  .menu3_header_h1 {
+    font-size: 1em;
+  }
+}
 .menu4_header {
   display: flex;
 }
 .menu4_header .menu4_header_h1 {
-  margin: 20px auto;
+  margin: auto;
   background: -webkit-linear-gradient(35deg, #1C9F05, #C8FABE);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: "runcrowregular";
-  font-size: 3em;
+  font-size: 2.1em;
 }
 
-.menu2_header,
-.menu3_header,
-.menu4_header {
-  height: 70px;
-}
-
-@media all and (max-width: 480px) {
+@media screen and (max-width: 1084px) and (orientation: portrait) {
   .home_header {
-    height: 90px;
-    width: 100%;
-  }
-  .home_header .home_header_h1 {
-    font-size: 2.6em;
+    max-height: 300px;
   }
 }
 .home_footer {
@@ -107,27 +118,30 @@
   padding: 0 20px;
 }
 
+@media screen and (min-width: 768px) and (orientation: portrait) {
+  .home_footer {
+    height: 60px;
+  }
+  .home_footer .home_footer_buttons {
+    max-width: 700px;
+  }
+}
 .menu1_footer {
   text-align: center;
   margin: 0;
 }
 .menu1_footer .fa-music {
-  padding: 4px;
+  padding: 6px;
 }
 
 .menu1_footer_h3 {
   font-family: "devonshireregular";
-  font-size: 2em;
-  margin: 0;
+  font-size: 1.5em;
 }
 
-@media all and (max-width: 480px) {
-  .home_footer {
-    height: 30px;
-  }
-
+@media screen and (max-width: 480px) {
   .menu1_footer_h3 {
-    margin: 30px auto;
+    font-size: 0.7em;
   }
 }
 a {
@@ -146,22 +160,6 @@ a {
   flex-direction: column;
 }
 
-@media all and (max-width: 480px) {
-  .menu1_body .menu2_body,
-.menu3_body,
-.menu4_body {
-    height: 100%;
-  }
-}
-@media all and (max-width: 1024px) {
-  .home_body,
-.menu1_body,
-.menu2_body,
-.menu3_body,
-.menu4_body {
-    height: 100%;
-  }
-}
 .home_main_container {
   display: flex;
   flex-direction: column;
@@ -174,8 +172,6 @@ a {
 .menu4_main_container {
   display: flex;
   flex-direction: column;
-  margin: auto;
-  font-size: 0.5em;
 }
 
 .menu1_main_container {
@@ -184,9 +180,8 @@ a {
 .menu1_main_container .box_menu1 {
   background-color: #FCDFDB;
   box-shadow: 0px 4px 16px -3px rgba(155, 153, 153, 0.75);
-  height: 450px;
-  width: 450px;
-  margin-bottom: 80px;
+  max-width: 80%;
+  margin: 0 auto 70px;
 }
 
 .fa-music {
@@ -197,9 +192,8 @@ a {
 
 .box_menu2 {
   box-shadow: 0px 4px 16px -3px rgba(155, 153, 153, 0.75);
-  height: 450px;
-  width: 450px;
-  margin-bottom: 80px;
+  max-width: 80%;
+  margin: 0 auto 70px;
   background-color: #FFF5FE;
 }
 
@@ -217,27 +211,43 @@ a {
 
 .box_menu3 {
   box-shadow: 0px 4px 16px -3px rgba(155, 153, 153, 0.75);
-  height: 450px;
-  width: 450px;
-  margin-bottom: 80px;
+  max-width: 80%;
+  margin: 0 auto 70px;
   background-color: #F9F9F9;
 }
 
 .box_menu4 {
   box-shadow: 0px 4px 16px -3px rgba(155, 153, 153, 0.75);
-  height: 450px;
-  width: 450px;
-  margin-bottom: 80px;
+  max-width: 80%;
+  margin: 0 auto 70px;
   background-color: #FDFFFD;
 }
 
 .box_menu2,
 .box_menu3,
 .box_menu4 {
-  padding: 20px;
+  padding: 10px;
   line-height: 2.5em;
 }
 
+@media screen and (max-width: 480px) {
+  .box_menu1 {
+    font-size: 0.7em;
+    margin: auto;
+  }
+
+  .box_menu2 {
+    font-size: 0.7em;
+  }
+
+  .box_menu3 {
+    font-size: 0.6em;
+  }
+
+  .box_menu4 {
+    font-size: 0.6em;
+  }
+}
 .menu3_main_container {
   font-family: "Comic Sans MS";
 }
@@ -252,53 +262,57 @@ a {
   margin: auto;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 200;
-  font-size: 0.8em;
+  font-size: 0.9em;
   padding: 20px;
 }
 
-@media all and (max-width: 480px) {
-  .home_main_container {
-    width: 100%;
-    height: 100%;
-  }
-
-  .box_menu1 {
-    font-size: 0.9em;
-  }
-
-  .box_menu1,
-.box_menu2,
-.box_menu3,
-.box_menu4 {
-    max-height: 600px;
-    max-width: 360px;
-    margin-bottom: 40px;
-  }
-
-  .legales_main_container {
-    font-size: 0.4em;
-  }
-}
-@media all and (max-width: 1024px) {
-  .home_main_container .menu1_main_container,
-.home_main_container .menu2_main_container,
-.home_main_container .menu3_main_container,
-.home_main_container .menu4_main_container {
-    height: 100%;
-  }
-}
 .section_menus {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 20px;
+  margin: auto;
 }
 
+@media screen and (min-width: 1024px) and (orientation: portrait) {
+  .section_menus {
+    padding: 50px;
+  }
+}
+.menu1_section_starters,
+.menu1_section_courses,
+.menu1_section_desserts,
+.menu2_section_starters,
+.menu3_section_starters,
+.menu4_section_starters,
+.menu2_section_courses,
+.menu3_section_courses,
+.menu4_section_courses,
+.menu2_section_desserts,
+.menu3_section_desserts,
+.menu4_section_desserts {
+  margin: 20px;
+}
+
+@media screen and (max-width: 480px) {
+  .menu1_section_starters,
+.menu1_section_courses,
+.menu1_section_desserts,
+.menu2_section_starters,
+.menu3_section_starters,
+.menu4_section_starters,
+.menu2_section_courses,
+.menu3_section_courses,
+.menu4_section_courses,
+.menu2_section_desserts,
+.menu3_section_desserts,
+.menu4_section_desserts {
+    margin: 0;
+  }
+}
 .soon {
   width: 100%;
-  height: 100px;
   display: flex;
-  margin-bottom: 50px;
+  margin-bottom: 90px;
 }
 .soon .soon_green {
   display: flex;
@@ -319,9 +333,9 @@ a {
 .loading1,
 .loading2,
 .loading3 {
-  width: 3px;
-  height: 3px;
-  margin: 0 0.5px;
+  width: 4px;
+  height: 4px;
+  margin: 3px 0.5px 0 1px;
   background-color: #FDCB46;
   border-radius: 50%;
   display: inline-block;
@@ -349,24 +363,13 @@ a {
   padding-bottom: 50px;
 }
 
-@media all and (max-width: 480px) {
-  .soon {
-    max-height: 50px;
-    margin: 0 auto;
+@media screen and (min-width: 1024px) {
+  .soon_green {
+    max-width: 300px;
+    max-height: 100px;
   }
-  .soon .soon_green {
-    width: 150px;
-    max-height: 20px;
-    margin: 0 auto;
-  }
-  .soon .soon_green .soon_green_h3 {
-    font-size: 0.9em;
-  }
-}
-@media all and (max-width: 1024px) {
-  .soon {
-    width: 100%;
-    margin: 30px auto;
+  .soon_green .soon_green_h3 {
+    font: size 1.5em;
   }
 }
 @font-face {
@@ -387,15 +390,25 @@ a {
   font-weight: normal;
   font-style: normal;
 }
-.menu_lanote {
+.menu {
   display: flex;
-  width: 48%;
-  margin: 4%;
-  height: 310px;
-  max-width: 210px;
-  font-size: 0.8em;
-  line-height: 2.9em;
+  max-width: 48%;
+  margin: 5%;
   box-shadow: 0px 4px 16px -3px rgba(155, 153, 153, 0.75);
+}
+
+@media screen and (max-width: 480px) {
+  .menu {
+    max-width: 300px;
+  }
+}
+@media screen and (min-width: 1024px) and (orientation: portrait) {
+  .menu {
+    max-width: 40%;
+    margin: 5%;
+  }
+}
+.menu_lanote {
   background-color: #FCDFDB;
 }
 .menu_lanote .menu_button_pink {
@@ -418,7 +431,9 @@ a {
   margin: auto;
   font-family: "devonshireregular";
   font-weight: lighter;
-  font-size: 1.6em;
+  font-size: 1.8em;
+  line-height: 1.8em;
+  padding: 70px 48px;
   color: black;
 }
 .menu_button_pink_h2 .button_pink_span {
@@ -426,14 +441,6 @@ a {
 }
 
 .menu_lechic {
-  display: flex;
-  width: 48%;
-  margin: 4%;
-  height: 310px;
-  max-width: 210px;
-  font-size: 0.8em;
-  line-height: 2.9em;
-  box-shadow: 0px 4px 16px -3px rgba(155, 153, 153, 0.75);
   background-color: #FFF5FE;
 }
 .menu_lechic .menu_button_lilac {
@@ -447,7 +454,9 @@ a {
 }
 .menu_lechic .menu_button_lilac .menu_button_lilac_h2 {
   font-family: "Croissant One", cursive;
-  font-size: 1em;
+  font-size: 1.2em;
+  line-height: 2.3em;
+  padding: 120px 16px;
   margin: auto;
   background: -webkit-linear-gradient(5deg, #F4AE04, #3E05D0);
   -webkit-background-clip: text;
@@ -461,14 +470,6 @@ a {
 }
 
 .menu_ledelice {
-  display: flex;
-  width: 48%;
-  margin: 4%;
-  height: 310px;
-  max-width: 210px;
-  font-size: 0.8em;
-  line-height: 2.9em;
-  box-shadow: 0px 4px 16px -3px rgba(155, 153, 153, 0.75);
   background-color: #F9F9F9;
 }
 .menu_ledelice .menu_button_grey {
@@ -483,6 +484,9 @@ a {
 .menu_ledelice .menu_button_grey .menu_button_grey_h2 {
   margin: auto;
   font-family: "Parisienne", cursive;
+  font-size: 1.7em;
+  line-height: 1.8em;
+  padding: 100px 18px;
   background: -webkit-linear-gradient(50deg, #0E01CA, #2F85FE);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -492,14 +496,6 @@ a {
 }
 
 .menu_lapalette {
-  display: flex;
-  width: 48%;
-  margin: 4%;
-  height: 310px;
-  max-width: 210px;
-  font-size: 0.8em;
-  line-height: 2.9em;
-  box-shadow: 0px 4px 16px -3px rgba(155, 153, 153, 0.75);
   background-color: #FDFFFD;
 }
 .menu_lapalette .menu_button_offwhite {
@@ -513,9 +509,10 @@ a {
 }
 .menu_lapalette .menu_button_offwhite .menu_button_offwhite_h2 {
   font-family: "runcrowregular";
-  font-size: 1.2em;
+  font-size: 1.4em;
+  line-height: 1.8em;
+  padding: 123px 44px;
   margin: auto;
-  padding: 5px;
   background: -webkit-linear-gradient(35deg, #1C9F05, #C8FABE);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -528,13 +525,14 @@ a {
 .mentions, .contact {
   color: #FDCB46;
   font-family: "Prompt", sans-serif;
-  font-size: 1em;
+  font-size: 1.1em;
   font-weight: 300;
 }
 .mentions:hover, .contact:hover {
   animation: shake 0.5s;
   animation-iteration-count: infinite;
 }
+
 @keyframes shake {
   0% {
     transform: translate(1px, 1px) rotate(0deg);
@@ -570,37 +568,9 @@ a {
     transform: translate(1px, -2px) rotate(-1deg);
   }
 }
-
-@media all and (max-width: 480px) {
-  .menu_lanote,
-.menu_lechic,
-.menu_ledelice,
-.menu_lapalette {
-    box-shadow: 0px 4px 16px -3px rgba(155, 153, 153, 0.75);
-    max-height: 190px;
-    max-width: 170px;
-  }
-
-  .menu_button_pink_h2,
-.menu_button_lilac_h2,
-.menu_button_grey_h2,
-.menu_button_offwhite_h2 {
-    font-size: 1.6em;
-    line-height: 1.5em;
-  }
-
+@media screen and (min-width: 768px) and (orientation: portrait) {
   .mentions, .contact {
-    font-size: 0.9em;
-  }
-}
-@media all and (max-width: 1024px) {
-  .menu_lanote,
-.menu_lechic,
-.menu_ledelice,
-.menu_lapalette {
-    box-shadow: 0px 4px 16px -3px rgba(155, 153, 153, 0.75);
-    max-height: 450px;
-    max-width: 600px;
+    font-size: 2em;
   }
 }
 ul {
@@ -649,12 +619,19 @@ ul {
   flex-wrap: nowrap;
 }
 
+@media screen and (max-width: 480px) {
+  .menu2_titles,
+.menu3_titles,
+.menu4_titles {
+    font-size: 0.8em;
+    line-height: 1.3em;
+  }
+}
 .right_img,
 .left_img {
-  width: 140px;
-  height: 4px;
+  width: 30%;
+  height: 1%;
   margin: auto;
-  padding: 0;
 }
 
 .mentions_h1,
@@ -673,7 +650,7 @@ ul {
 .menu4_courses_h2,
 .menu4_desserts_h2 {
   text-decoration: none;
-  background: linear-gradient(to top, #070000 0%, rgba(8, 0, 0, 0.5) 1px, transparent 2px) no-repeat;
+  background: linear-gradient(to top, #070000 0%, rgba(8, 0, 0, 0.5) 3px, transparent 2px) no-repeat;
   background-size: 0 100%;
   transition: background-size 0.2s;
 }
@@ -691,7 +668,7 @@ ul {
 
 .menu2_starters_h2 {
   text-decoration: none;
-  background: linear-gradient(to top, #c09d46 0%, rgba(250, 211, 83, 0.5) 1px, transparent 2px) no-repeat;
+  background: linear-gradient(to top, #c09d46 0%, rgba(250, 211, 83, 0.5) 3px, transparent 2px) no-repeat;
   background-size: 0 100%;
   transition: background-size 0.2s;
 }
@@ -701,7 +678,7 @@ ul {
 
 .menu2_courses_h2 {
   text-decoration: none;
-  background: linear-gradient(to top, #9b67b8 0%, rgba(221, 170, 245, 0.5) 1px, transparent 2px) no-repeat;
+  background: linear-gradient(to top, #9b67b8 0%, rgba(221, 170, 245, 0.5) 3px, transparent 2px) no-repeat;
   background-size: 0 100%;
   transition: background-size 0.2s;
 }
@@ -711,7 +688,7 @@ ul {
 
 .menu2_desserts_h2 {
   text-decoration: none;
-  background: linear-gradient(to top, #4e11f7 0%, rgba(108, 79, 235, 0.5) 1px, transparent 2px) no-repeat;
+  background: linear-gradient(to top, #4e11f7 0%, rgba(108, 79, 235, 0.5) 3px, transparent 2px) no-repeat;
   background-size: 0 100%;
   transition: background-size 0.2s;
 }
@@ -719,12 +696,6 @@ ul {
   background-size: 100% 100%;
 }
 
-@media all and (max-width: 480px) {
-  .right_img,
-.left_img {
-    max-width: 70px;
-  }
-}
 @font-face {
   font-family: "devonshireregular";
   src: url("../fonts/devonshire-regular-webfont.eot");

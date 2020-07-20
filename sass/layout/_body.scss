@@ -17,30 +17,11 @@ a {
     margin: auto;
     display: flex;
     flex-direction: column;
-    
-}
-@media all and(max-width: 480px)
-{
-.menu1_body
-.menu2_body,
-.menu3_body,
-.menu4_body{
-    height: 100%;
-}    
-}
-
-@media all and(max-width: 1024px)
-{
-.home_body,
-.menu1_body,
-.menu2_body,
-.menu3_body,
-.menu4_body{
-    height: 100%;
-}
+}  
 
 
-}
+
+
 
 
 
