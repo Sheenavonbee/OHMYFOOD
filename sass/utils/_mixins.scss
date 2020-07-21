@@ -22,29 +22,29 @@
     
 }
 @mixin fa_note_color {
-    background: -webkit-linear-gradient(65deg, #DB2A03, #F98607);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    background: linear-gradient(65deg, #DB2A03, #F98607);
+    background-clip: text;
+    text-fill-color: transparent;
 }   
 
 @mixin lechic_color {
-    background: -webkit-linear-gradient(5deg, #F4AE04, #3E05D0);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+    background: linear-gradient(5deg, #F4AE04, #3E05D0);
+    background-clip: text;
+    text-fill-color: transparent;
     
 }
 
 @mixin ledelice_color {
-    background: -webkit-linear-gradient(50deg, #0E01CA,#2F85FE); 
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    background:linear-gradient(50deg, #0E01CA,#2F85FE); 
+    background-clip: text;
+    text-fill-color: transparent;
     
 }
 
 @mixin lapalette_color {
-    background: -webkit-linear-gradient(35deg, #1C9F05,#C8FABE); 
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    background: linear-gradient(35deg, #1C9F05,#C8FABE); 
+    background-clip: text;
+    text-fill-color: transparent;
 }
 
 
