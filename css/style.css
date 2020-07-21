@@ -55,9 +55,9 @@
 .menu2_header .menu2_header_h1 {
   margin: auto;
   font-family: "Croissant One", cursive;
-  background: linear-gradient(5deg, #F4AE04, #3E05D0);
-  background-clip: text;
-  text-fill-color: transparent;
+  background: -webkit-linear-gradient(5deg, #F4AE04, #3E05D0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 @media screen and (max-width: 480px) {
@@ -72,9 +72,9 @@
   margin: auto;
   font-family: "Parisienne", cursive;
   font-size: 2.6em;
-  background: linear-gradient(50deg, #0E01CA, #2F85FE);
-  background-clip: text;
-  text-fill-color: transparent;
+  background: -webkit-linear-gradient(50deg, #0E01CA, #2F85FE);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 @media screen and (max-width: 480px) {
@@ -87,9 +87,9 @@
 }
 .menu4_header .menu4_header_h1 {
   margin: auto;
-  background: linear-gradient(35deg, #1C9F05, #C8FABE);
-  background-clip: text;
-  text-fill-color: transparent;
+  background: -webkit-linear-gradient(35deg, #1C9F05, #C8FABE);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-family: "runcrowregular";
   font-size: 2.1em;
 }
@@ -185,9 +185,9 @@ a {
 }
 
 .fa-music {
-  background: linear-gradient(65deg, #DB2A03, #F98607);
-  background-clip: text;
-  text-fill-color: transparent;
+  background: -webkit-linear-gradient(65deg, #DB2A03, #F98607);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .box_menu2 {
@@ -422,9 +422,9 @@ a {
 }
 
 .fa-music {
-  background: linear-gradient(65deg, #DB2A03, #F98607);
-  background-clip: text;
-  text-fill-color: transparent;
+  background: -webkit-linear-gradient(65deg, #DB2A03, #F98607);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .menu_button_pink_h2 {
@@ -458,9 +458,9 @@ a {
   line-height: 2.3em;
   padding: 120px 16px;
   margin: auto;
-  background: linear-gradient(5deg, #F4AE04, #3E05D0);
-  background-clip: text;
-  text-fill-color: transparent;
+  background: -webkit-linear-gradient(5deg, #F4AE04, #3E05D0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .menu_lechic .menu_button_lilac .menu_button_lilac_h2 .button_lilac_span {
   font-family: "Times New Roman", Times, serif;
@@ -487,9 +487,9 @@ a {
   font-size: 1.7em;
   line-height: 1.8em;
   padding: 100px 18px;
-  background: linear-gradient(50deg, #0E01CA, #2F85FE);
-  background-clip: text;
-  text-fill-color: transparent;
+  background: -webkit-linear-gradient(50deg, #0E01CA, #2F85FE);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .menu_ledelice .menu_button_grey .menu_button_grey_h2 .button_grey_span {
   font-family: "Comic Sans MS";
@@ -513,9 +513,9 @@ a {
   line-height: 1.8em;
   padding: 123px 44px;
   margin: auto;
-  background: linear-gradient(35deg, #1C9F05, #C8FABE);
-  background-clip: text;
-  text-fill-color: transparent;
+  background: -webkit-linear-gradient(35deg, #1C9F05, #C8FABE);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .menu_lapalette .menu_button_offwhite .menu_button_offwhite_h2 .button_offwhite_span {
   font-family: "Comic Sans MS";
