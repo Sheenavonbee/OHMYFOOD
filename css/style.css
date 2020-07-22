@@ -57,7 +57,7 @@
   font-family: "Croissant One", cursive;
   background: -webkit-linear-gradient(5deg, #F4AE04, #3E05D0);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: transparent;
 }
 
 @media screen and (max-width: 480px) {
@@ -74,7 +74,7 @@
   font-size: 2.6em;
   background: -webkit-linear-gradient(50deg, #0E01CA, #2F85FE);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: transparent;
 }
 
 @media screen and (max-width: 480px) {
@@ -89,7 +89,7 @@
   margin: auto;
   background: -webkit-linear-gradient(35deg, #1C9F05, #C8FABE);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: transparent;
   font-family: "runcrowregular";
   font-size: 2.1em;
 }
@@ -187,7 +187,7 @@ a {
 .fa-music {
   background: -webkit-linear-gradient(65deg, #DB2A03, #F98607);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: transparent;
 }
 
 .box_menu2 {
@@ -418,13 +418,13 @@ a {
   transition: transform 100ms ease-in-out;
 }
 .menu_lanote .menu_button_pink:hover {
-  transform: scale(1.5);
+  transform: scale(1.3);
 }
 
 .fa-music {
   background: -webkit-linear-gradient(65deg, #DB2A03, #F98607);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: transparent;
 }
 
 .menu_button_pink_h2 {
@@ -450,7 +450,7 @@ a {
   transition: transform 100ms ease-in-out;
 }
 .menu_lechic .menu_button_lilac:hover {
-  transform: scale(1.5);
+  transform: scale(1.3);
 }
 .menu_lechic .menu_button_lilac .menu_button_lilac_h2 {
   font-family: "Croissant One", cursive;
@@ -460,7 +460,7 @@ a {
   margin: auto;
   background: -webkit-linear-gradient(5deg, #F4AE04, #3E05D0);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: transparent;
 }
 .menu_lechic .menu_button_lilac .menu_button_lilac_h2 .button_lilac_span {
   font-family: "Times New Roman", Times, serif;
@@ -479,7 +479,7 @@ a {
   transition: transform 100ms ease-in-out;
 }
 .menu_ledelice .menu_button_grey:hover {
-  transform: scale(1.5);
+  transform: scale(1.3);
 }
 .menu_ledelice .menu_button_grey .menu_button_grey_h2 {
   margin: auto;
@@ -489,7 +489,7 @@ a {
   padding: 100px 18px;
   background: -webkit-linear-gradient(50deg, #0E01CA, #2F85FE);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: transparent;
 }
 .menu_ledelice .menu_button_grey .menu_button_grey_h2 .button_grey_span {
   font-family: "Comic Sans MS";
@@ -505,7 +505,7 @@ a {
   transition: transform 100ms ease-in-out;
 }
 .menu_lapalette .menu_button_offwhite:hover {
-  transform: scale(1.5);
+  transform: scale(1.3);
 }
 .menu_lapalette .menu_button_offwhite .menu_button_offwhite_h2 {
   font-family: "runcrowregular";
@@ -515,7 +515,7 @@ a {
   margin: auto;
   background: -webkit-linear-gradient(35deg, #1C9F05, #C8FABE);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: transparent;
 }
 .menu_lapalette .menu_button_offwhite .menu_button_offwhite_h2 .button_offwhite_span {
   font-family: "Comic Sans MS";
