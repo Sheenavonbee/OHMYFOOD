@@ -17,13 +17,15 @@
 @media screen and (min-width: 1024px) and (orientation: portrait)
 {
 .menu {
-    max-width: 40%;
-    margin: 5%;
+    max-width: 42%;
+    margin: 4%;
     
 }
 }
 .menu_lanote {
       background-color: $menu1_color;
+      width: 100%;
+      padding: 10% 0;
       .menu_button_pink {
           display: flex;
           margin: auto;
@@ -52,6 +54,8 @@
 
 .menu_lechic {
      background-color: $menu2_color;
+     width: 100%;
+     padding: 10% 0;
      .menu_button_lilac { 
          display: flex;
          margin: auto;
@@ -74,6 +78,8 @@
 }    
 .menu_ledelice {
     background-color: $menu3_color;
+    width: 100%;
+    padding: 10% 0;
     .menu_button_grey {
         display: flex;
         margin: auto;
@@ -95,6 +101,8 @@
 }
 .menu_lapalette {
     background-color: $menu4_color;
+    width: 100%;
+    padding: 10% 0;
     .menu_button_offwhite {
         display: flex;
         margin: auto;

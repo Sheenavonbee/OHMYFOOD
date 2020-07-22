@@ -267,6 +267,7 @@ a {
 }
 
 .section_menus {
+  max-width: 700px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -392,8 +393,9 @@ a {
 }
 .menu {
   display: flex;
-  max-width: 48%;
-  margin: 5%;
+  width: 42%;
+  margin: 4%;
+  min-width: 290px;
   box-shadow: 0px 4px 16px -3px rgba(155, 153, 153, 0.75);
 }
 
@@ -404,12 +406,14 @@ a {
 }
 @media screen and (min-width: 1024px) and (orientation: portrait) {
   .menu {
-    max-width: 40%;
-    margin: 5%;
+    max-width: 42%;
+    margin: 4%;
   }
 }
 .menu_lanote {
   background-color: #FCDFDB;
+  width: 100%;
+  padding: 10% 0;
 }
 .menu_lanote .menu_button_pink {
   display: flex;
@@ -442,6 +446,8 @@ a {
 
 .menu_lechic {
   background-color: #FFF5FE;
+  width: 100%;
+  padding: 10% 0;
 }
 .menu_lechic .menu_button_lilac {
   display: flex;
@@ -471,6 +477,8 @@ a {
 
 .menu_ledelice {
   background-color: #F9F9F9;
+  width: 100%;
+  padding: 10% 0;
 }
 .menu_ledelice .menu_button_grey {
   display: flex;
@@ -497,6 +505,8 @@ a {
 
 .menu_lapalette {
   background-color: #FDFFFD;
+  width: 100%;
+  padding: 10% 0;
 }
 .menu_lapalette .menu_button_offwhite {
   display: flex;

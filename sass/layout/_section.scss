@@ -2,6 +2,7 @@
 @import "../utils/mixins";
 
 .section_menus {
+    max-width: 700px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

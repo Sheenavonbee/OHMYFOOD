@@ -1,8 +1,9 @@
 
 @mixin home_menu {
     display: flex;
-    max-width: 48%;
-    margin: 5%;
+    width: 42%;
+    margin: 4%;
+    min-width: 290px;
     box-shadow: 0px 4px 16px -3px  rgba(155, 153, 153, 0.75);
     
 }
