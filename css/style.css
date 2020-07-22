@@ -422,7 +422,7 @@ a {
   transition: transform 100ms ease-in-out;
 }
 .menu_lanote .menu_button_pink:hover {
-  transform: scale(1.3);
+  transform: scale(1.2);
 }
 
 .fa-music {
@@ -456,7 +456,7 @@ a {
   transition: transform 100ms ease-in-out;
 }
 .menu_lechic .menu_button_lilac:hover {
-  transform: scale(1.3);
+  transform: scale(1.2);
 }
 .menu_lechic .menu_button_lilac .menu_button_lilac_h2 {
   font-family: "Croissant One", cursive;
@@ -487,7 +487,7 @@ a {
   transition: transform 100ms ease-in-out;
 }
 .menu_ledelice .menu_button_grey:hover {
-  transform: scale(1.3);
+  transform: scale(1.2);
 }
 .menu_ledelice .menu_button_grey .menu_button_grey_h2 {
   margin: auto;
@@ -515,7 +515,7 @@ a {
   transition: transform 100ms ease-in-out;
 }
 .menu_lapalette .menu_button_offwhite:hover {
-  transform: scale(1.3);
+  transform: scale(1.2);
 }
 .menu_lapalette .menu_button_offwhite .menu_button_offwhite_h2 {
   font-family: "runcrowregular";
